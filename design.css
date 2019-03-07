@@ -1,0 +1,185 @@
+﻿body{
+	background-color:#fff0d3;
+	font-family: boomtown_decoregular, Arial;
+}
+
+.title{
+	color:#000000;
+	text-align:center;
+	font-family: boomtown_decoregular;
+	font-size:50px; 
+}
+
+.logo{
+		right:100px;
+		text-align:center;
+}
+/* Break between element's properties */
+hr{
+	border-color:#000000;
+
+}
+
+.banner{
+		padding:0px;
+		margin:auto 5px;
+}
+/* Font for website */
+@font-face {
+    font-family: boomtown_decoregular;
+    src: url('boomtowndeco-webfont.woff2') format('woff2'),
+         url('boomtowndeco-webfont.woff') format('woff'),
+		 url('boomtowndeco-webfont.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+	font-weight:550;
+	color:#000000;
+	text-align:center;
+	padding:10;
+	word-spacing:20px;
+	font-size:70px;
+}
+
+h2{
+	font-weight:550;
+	color:#000000;
+	text-align:center;
+	padding:10;
+	word-spacing:20px;
+	font-size:70px;
+}
+
+h3{
+	font-weight:550;
+	color:#000000;
+	text-align:center;
+	padding:10;
+	word-spacing:20px;
+	font-size:70px;
+}
+
+h4{
+	font-weight:550;
+	color:#000000;
+	text-align:center;
+	padding:10;
+	word-spacing:20px;
+	font-size:70px;
+}
+
+h5{
+	font-weight:550;
+	color:#000000;
+	text-align:center;
+	padding:10;
+	word-spacing:20px;
+	font-size:70px;
+}
+.centered {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+.links a:hover{
+	color:white;
+	opacity:5%;
+
+}
+
+.links{
+	text-orientation:sideways;
+}
+
+.form1{
+	padding:20px;
+	font-size:70px;
+
+}
+
+.form1 .form-group{
+	padding:15px;
+}
+
+.form1 label{
+	display:block;
+}
+
+.form1 input[type="text"], .form1 textarea{
+	padding:8px;
+	width:100%;
+}
+
+.button{
+	color#fff;
+	background-color:#333
+	padding:10px 15px;
+	border:thin;
+	font-size:50px;
+	border-right:1px black solid;
+	border-left:1px black solid;
+	border-top:1px black solid;
+	border-bottom:1px black solid;
+}
+
+/* Container holding the image and the text 
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+ Bottom left text 
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+ Top left text 
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+ Top right text 
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+ Bottom right text 
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+.centered2 {
+  position: absolute;
+  top: 30%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+
+ }
+
+.background{
+	border-right:10px black solid;
+	border-left:10px black solid;
+	border-top:10px black solid;
+	border-bottom:10px black solid;
+}
+
